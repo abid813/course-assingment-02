@@ -90,9 +90,90 @@ font-size: 3rem;
 }
 
 .img-sec{
-    width: 60%;
+    max-width: 100%;
+  
     height: 350px;
+    
 }
+
+.img-sec img{
+
+}
+
+
+
+/* Main area design start */
+ 
+.plant-parent{
+padding-top: 150px;
+   margin: 0 auto; 
+
+}
+
+.plant-text{
+margin-top: 90px;
+    text-align: center;
+}
+
+
+.plant-text .dark{
+font-size: 2.7rem;
+
+}
+
+.plant-text .darkk{
+    font-size: 22px;
+    color: #8987A1;
+
+}
+
+.plant1 h1{
+    color: #645f5f;
+    font-size: 22px;
+}
+.plant1 p{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+
+
+/* Plant img area design start */
+
+.plant-container{
+text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+
+}
+
+.plant-container .plant1{
+width: 275px;
+border-radius:7px ;
+background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+margin-top: 25px;
+}
+
+
+.btn{
+    background-color:  #E95A08 ;
+    color: white;
+    font-weight: bold;
+width: 100%;
+padding: 10px 0;
+border: none;
+}
+
+
+
+
+/* Responsive header section */
+
+/* responsive for mobile phone  */
 
 /* Responsive header section */
 
@@ -115,15 +196,59 @@ flex-direction: column-reverse;
 
 }
 .text-sec{
-width: 100%;
-margin-left: 0px;
+width: 90%;
+height: 170px;
+margin-left: -50px;
+margin-top: -80px;
+
 
 }
-.img-sec{
+
+.text-sec h1{
+    font-size: 2rem;
+}
+
+.text-sec p{
+    font-size: 1.7rem;
+}
+
+
+.img-sec img{
     margin: 0 auto;
-    width: 100%;
+    width: 300px;
 }
 
 
+/* Our plant design section */
+.plant-parent{
+    padding-top:2px;
+}
+
+.plant-container{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:0px;
+}
+
+.plant1{
+    gap: 0px;
+    padding: 0px;
+     width:150px;
+     border: 4px solid ref;
+
+
+     
+}
+
+.plant-text h1{
+font-size: 20px;
+}
+
+.plant-text .dark3{
+    font-size: 10px;
+}
+
+.plant1 img{
+}
 
 }
