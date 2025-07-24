@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+background-color: rgba(231, 237, 247, 0.995);
+
+}
+
+/* For same Design */
+.dark1{
+color:#000000 ;
+font-weight: bold;
+font-size: 3rem;
+}
+
+.dark2{
+ color: #252432;
+}
+
+.dark3{
+    color: #8987A1;
+    font-size: 1.3rem;
+}
+.gold{
+  color: #E95A08;  
+}
+
+.navbar{
+    display: flex;
+/* background-color: rgba(231, 237, 247, 0.995); */
+    justify-content: space-between;
+    margin:30px 130px ;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar li{
+       list-style: none;
+    padding: 12px;
+
+}
+
+.navbar li a{
+    text-decoration: none;
+        font-size:20px ;
+        font-size: bold;
+
+
+}
+
+
+
+
+/* hero area design start */
+
+.text-img-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    /* margin: 220px 150px 200px 130px; */
+}
+
+.text-sec{
+    width: 40%;
+    margin-left: 140px;
+}
+
+.text-sec h1{
+    font-size: 50px;
+}
+
+.text-sec p{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.img-sec{
+    width: 60%;
+    height: 350px;
+}
+
+/* Responsive header section */
+
+/* responsive for mobile phone  */
+
+@media (min-width: 576px)
+and (max-width:767px) {
+  .navbar{
+    flex-direction: column;
+
+  } 
+   
+  .menu{
+    flex-direction: column;
+  }
+
+.text-img-banner{
+    /* text-align: center; */
+flex-direction: column-reverse;
+
+}
+.text-sec{
+width: 100%;
+margin-left: 0px;
+
+}
+.img-sec{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+}
