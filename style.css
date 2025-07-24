@@ -170,6 +170,63 @@ border: none;
 
 
 
+/* flower-plant-Section Design Start */
+.flower-plant-container{
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+    
+    
+}
+
+.img-badge-sec{
+    position: relative;
+    width: 400px;
+
+}
+
+.main-img{
+    width: 400px;
+    border-radius: 7px;
+}
+
+
+.badge-img{
+    position: absolute;
+    top: -80px;
+    right:-61px;
+    width: 160px;
+}
+
+/* flower-plants-text part design */
+.flower-plants-text{
+    max-width: 500px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.flower-plants-text h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.flower-plants-text li{
+ font-size: 16px;
+  line-height: 2.5;
+  color: #8987A1;
+ 
+  margin-bottom: 18px;
+
+}
+
+
+
+
+
 /* responsive for mobile phone  */
 
 @media (min-width: 576px)
@@ -241,7 +298,11 @@ font-size: 20px;
     font-size: 10px;
 }
 
-.plant1 img{
-}
+    .flower-plant-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        }
 
 }
