@@ -504,14 +504,22 @@ gap: 20px;
 /* This is Responsive area Design area */
 
 @media(max-width:767px) {
+header{
+    width: 100%;
+    max-width: 100%;
+}
+
   .navbar{
     flex-direction:row;
     text-align: center;
-    width: 100%;
-    max-width: 100%;
-    border: 2px solid red;
+    
 
   } 
+
+  .plant-text{
+    width: 100%;
+    max-width: 100%;
+  }
    
 .container{
     width: 100%;
@@ -594,19 +602,34 @@ font-size: 20px;
 }
 
     .flower-plant-container{
+        width: 100%;
+        max-width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
         }
 
+.latest-deals{
+    width: 100%;
+    max-width: 100%;
+}
+
+
 .img-badge-sec .badge-img{
 display: none;
+}
+
+.join-container{
+    width: 100%;
+    max-width: 100%;
 }
 
 
 /* Text-overlay part design  */
 .img-text-container{
+    width: 100%;
+    max-width: 100%;
     flex-direction: column;
     margin-left: 10px;
     justify-content: center;
@@ -625,7 +648,13 @@ display: none;
 
 
 /* footer-area responsive */
+.footer{
+    width: 100%;
+    max-width: 100%;
+}
 .footer-container{
+    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     height: 1000p;
