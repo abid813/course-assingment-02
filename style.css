@@ -226,8 +226,151 @@ border: none;
 
 
 
+/* <!-- img-text overlay design start --> */
 
-/* responsive for mobile phone  */
+.latest-deals{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.img-text-container{
+    display: flex;
+   
+    width: 100%;
+    margin-top:70px ;
+    gap: 16px;
+    margin-left: 60px;
+    /* margin-right:-538px ; */
+    justify-content: space-between;
+}
+
+.img-text{
+width:48%;
+height: auto;
+position: relative;
+display: inline;
+margin-left: 40px;
+}
+
+
+.img-text img{
+    position: relative;
+   width: 100%;
+   object-fit: cover;
+   border-radius: 7px;
+   border:none;
+   flex: 1;
+   object-fit: cover;
+   margin-left: 10px ;
+   border: 2px solid black;
+
+}
+
+
+/* Text ovrlay design */
+.img-text-container {
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+    gap: 16px;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+
+/* Left section */
+.img-text {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+/* Individual image container */
+.div1, .div2, .img2 {
+    position: relative;
+    width: 100%;
+}
+
+/* All images style */
+.overlay-img1,
+.overlay-img2,
+.overlay-img3 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 7px;
+    display: block;
+    border: 2px solid black;
+}
+
+/* Overlay style for all */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-left: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    pointer-events: none; /* overlay text won't block image clicks */
+}
+
+
+.overlay3{
+position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:-1px;
+    border-radius: 7px;
+    pointer-events: none; /* overlay text won't block image clicks */    
+}
+
+
+
+/* Text inside overlay */
+.text {
+    color: white;
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.text h5 {
+    font-size: 16px;
+    margin: 0;
+    text-decoration: underline;
+}
+
+
+
+/* Overlay desing is being designed */
+
+.img2{
+    width: 94%;
+    object-fit: cover;
+    margin-right: 100px;
+}
+
+
+.img2 img{
+width: 100%;
+border-radius: 12px;
+}
 
 @media (min-width: 576px)
 and (max-width:767px) {
@@ -305,4 +448,21 @@ font-size: 20px;
 
         }
 
+/* Text-overlay part design  */
+.img-text-container{
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+}
+.img-text{
+    width: 95%;
+    margin-left: 10px;
+}
+
+.img2 {
+ width: 96%;
+  margin-right: auto; /* এটি তাকে বাঁ দিকে ঠেলে দিবে */
+  position: relative;
+  margin-left: 10px;
+}
 }
